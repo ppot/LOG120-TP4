@@ -5,31 +5,24 @@ import application.model.Thumbnail;
 
 public class Singleton {
     private static final Singleton INSTANCE = new Singleton();
-    private Thumbnail top;
-    private Thumbnail left;
-    private Thumbnail right;
+    private Thumbnail preview;
+    private Thumbnail edit;
     private Warpper warpper;
 
     private Singleton() {
-        this.top = new Thumbnail();
-        this.left = new Thumbnail();
-        this.right = new Thumbnail();
+        this.preview=new Thumbnail();
+        this.edit =new Thumbnail();
         this.warpper = new Warpper();
     }
 
     public static Singleton getInstance() {
         return INSTANCE;
     }
-    public Thumbnail getTop() {
-        return top;
+    public Thumbnail getPreview(){
+        return  preview;
     }
-
-    public Thumbnail getLeft() {
-        return left;
-    }
-
-    public Thumbnail getRight() {
-        return right;
+    public Thumbnail getEdit(){
+        return edit;
     }
 
     public Warpper getWarpper() {

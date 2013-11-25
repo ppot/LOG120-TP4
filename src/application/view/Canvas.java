@@ -4,28 +4,34 @@ import application.tools.Handler;
 import application.model.Thumbnail;
 import application.tools.Observer;
 import application.tools.Subject;
-
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.awt.event.MouseWheelEvent;
+import java.awt.event.MouseWheelListener;
 import javax.swing.BorderFactory;
 import javax.swing.JComponent;
 
-public class Canvas extends JComponent implements MouseListener, Observer {
+public class Canvas extends JComponent implements MouseListener,MouseWheelListener,Observer {
     private static final long serialVersionUID = 1L;
     private Dimension dimention;
     private String id;
     private Subject subject;
     private int mouseX = 0;
     private int mouseY = 0;
-    private boolean mouseAction;
+    private boolean canZoom;
+    private boolean canMove;
 
-    public Canvas(String id, boolean action, Dimension dim) {
+    public Canvas(String id,boolean move,boolean zoom, Dimension dim) {
         this.id = id;
-        this.mouseAction = action;
+        this.canMove=move;
+        this.canZoom=zoom;
         this.dimention = dim;
-        if (action) {
+        if (move) {
             this.addMouseListener(this);
+        }
+        if(zoom){
+            this.addMouseWheelListener(this);
         }
         this.mouseX = 0;
         this.mouseY = 0;
@@ -83,7 +89,7 @@ public class Canvas extends JComponent implements MouseListener, Observer {
             int totalY = 0;
             totalX = endX - this.mouseX;
             totalY = endY - this.mouseY;
-            Handler.move(this, response.getIcon(), totalX, totalY);
+            Handler.move(totalX, totalY);
             this.mouseX = 0;
             this.mouseY = 0;
         }
@@ -98,5 +104,18 @@ public class Canvas extends JComponent implements MouseListener, Observer {
     @Override
     public Dimension getPreferredSize() {
         return dimention;
+    }
+
+    @Override
+    public void mouseWheelMoved(MouseWheelEvent e) {
+        int value=e.getWheelRotation();
+        boolean zoomValue=false;
+        if(value>0){
+            zoomValue=true;
+        }
+        else if(value<0){
+            zoomValue=false;
+        }
+        Handler.zoom(this,zoomValue);
     }
 }

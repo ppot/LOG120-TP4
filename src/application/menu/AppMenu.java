@@ -5,7 +5,7 @@ import application.action.Open;
 import application.action.Redo;
 import application.action.Rollback;
 import application.model.Thumbnail;
-
+import application.tools.Handler;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -38,9 +38,18 @@ public class AppMenu extends JMenuBar {
             OPENCONFIG_MENU = "open config",
             ROOLBACK_MENU = "go back",
             REDO_MENU = "no redo";
-
+    private static final char COPYALL_RAC = KeyEvent.VK_3;
+    private static final char COPYMOVE_RAC = KeyEvent.VK_2;
+    private static final char COPYSCALE_RAC = KeyEvent.VK_1;
+    private static final char PASTE_RAC = KeyEvent.VK_P;
+    private static final String TOOL_TITLE = "tool",
+            TOOL_COPYSCALE="copy scale",
+            TOOL_COPYMOVE="copy bounds",
+            TOOL_COPY = "copy all",
+            TOOL_PASTE = "paste";
     public AppMenu() {
         addMenu();
+        toolMenu();
     }
     protected void addMenu() {
         JMenu menu = createMenu(TITLE,
@@ -59,9 +68,8 @@ public class AppMenu extends JMenuBar {
                     try {
                         FileInputStream fis = new FileInputStream(f);
                         ObjectInputStream ois = new ObjectInputStream(fis);
-                        Singleton.getInstance().getTop().copied((Thumbnail) ois.readObject());
-                        Singleton.getInstance().getLeft().copied((Thumbnail) ois.readObject());
-                        Singleton.getInstance().getRight().copied((Thumbnail) ois.readObject());
+                        Singleton.getInstance().getPreview().copied((Thumbnail) ois.readObject());
+                        Singleton.getInstance().getEdit().copied((Thumbnail) ois.readObject());
                         ois.close();
 
                         // Clean up the file
@@ -80,12 +88,11 @@ public class AppMenu extends JMenuBar {
                 try {
                     FileOutputStream fos = new FileOutputStream("config.ser");
                     ObjectOutputStream oos = new ObjectOutputStream(fos);
-                    oos.writeObject(Singleton.getInstance().getTop());
-                    oos.writeObject(Singleton.getInstance().getLeft());
-                    oos.writeObject(Singleton.getInstance().getTop());
+                    oos.writeObject(Singleton.getInstance().getPreview());
+                    oos.writeObject(Singleton.getInstance().getEdit());
                     oos.close();
                 } catch (Exception ex) {
-                    fail("Exception thrown during test: " + ex.toString());
+                        fail("Exception thrown during test: " + ex.toString());
                 }
             }
         });
@@ -100,6 +107,45 @@ public class AppMenu extends JMenuBar {
         add(menu);
     }
 
+    protected void toolMenu() {
+        JMenu menu = createMenu(TOOL_TITLE,
+                new String[]{TOOL_PASTE,TOOL_COPYSCALE,TOOL_COPYMOVE,TOOL_COPY});
+
+        menu.getItem(0).addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) {
+                if(Singleton.getInstance().getWarpper().getCopy()!=null){
+                    Handler.paste();
+                }
+            }
+        });
+
+        menu.getItem(0).setAccelerator(KeyStroke.getKeyStroke(PASTE_RAC, MENU_MASK));
+        menu.getItem(1).addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) {
+                if(Singleton.getInstance().getEdit().getIcon()!=null){
+                    Handler.copyScale();
+                }
+            }
+        });
+        menu.getItem(1).setAccelerator(KeyStroke.getKeyStroke(COPYSCALE_RAC, MENU_MASK));
+        menu.getItem(2).addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) {
+                if(Singleton.getInstance().getEdit().getIcon()!=null){
+                    Handler.copyMove();
+                }
+            }
+        });
+        menu.getItem(2).setAccelerator(KeyStroke.getKeyStroke(COPYMOVE_RAC, MENU_MASK));
+        menu.getItem(3).addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) {
+                if(Singleton.getInstance().getEdit().getIcon()!=null){
+                    Handler.copy();
+                }
+            }
+        });
+        menu.getItem(3).setAccelerator(KeyStroke.getKeyStroke(COPYALL_RAC, MENU_MASK));
+        add(menu);
+    }
     private static JMenu createMenu(String titleKey, String[] itemKeys) {
         JMenu menu = new JMenu(titleKey);
         for (int i = 0; i < itemKeys.length; ++i) {

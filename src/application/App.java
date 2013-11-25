@@ -1,7 +1,6 @@
 package application;
 
 import application.menu.AppMenu;
-import application.menu.ViewMenu;
 import application.view.Canvas;
 
 import java.awt.*;
@@ -12,9 +11,9 @@ import javax.swing.JPanel;
 public class App {
 
     private JFrame frame;
-    private Canvas canvasTop;
-    private Canvas canvasLeft;
-    private Canvas canvasRight;
+    private Canvas preview;
+    private Canvas move;
+    private Canvas zoom;
 
     /**
      * Launch the application.
@@ -55,8 +54,8 @@ public class App {
         AppMenu mn = new AppMenu();
         JPanel container = new JPanel();
         JPanel top = new JPanel();
-        canvasTop = new Canvas("TOP", false, new Dimension(200, 200));
-        top.add(canvasTop);
+        preview = new Canvas("PREVIEW",false,false, new Dimension(200, 200));
+        top.add(preview);
         BorderLayout border = new BorderLayout();
         container.setLayout(border);
         container.add(mn, BorderLayout.NORTH);
@@ -69,11 +68,8 @@ public class App {
         leftContainner.setLayout(leftLyout);
 
         JPanel left = new JPanel();
-        canvasLeft = new Canvas("LEFT", true, new Dimension(500, 500));
-        left.add(canvasLeft);
-        ViewMenu leftMenu = new ViewMenu(canvasLeft);
-
-        leftContainner.add(leftMenu, BorderLayout.NORTH);
+        move = new Canvas("MOVE",true,false, new Dimension(500, 500));
+        left.add(move);
         leftContainner.add(left, BorderLayout.SOUTH);
         frame.getContentPane().add(leftContainner, BorderLayout.WEST);
 
@@ -82,25 +78,21 @@ public class App {
         BorderLayout rightLyout = new BorderLayout();
         rightContainner.setLayout(rightLyout);
         JPanel right = new JPanel();
-        canvasRight = new Canvas("RIGHT", true, new Dimension(500, 500));
-        right.add(canvasRight);
-        ViewMenu rightMenu = new ViewMenu(canvasRight);
-        rightContainner.add(rightMenu, BorderLayout.NORTH);
+        zoom = new Canvas("ZOOM",false,true, new Dimension(500, 500));
+        right.add(zoom);
         rightContainner.add(right, BorderLayout.SOUTH);
         frame.getContentPane().add(rightContainner, BorderLayout.EAST);
+         Singleton.getInstance().getPreview().register(preview);
+        Singleton.getInstance().getEdit().register(move);
+        Singleton.getInstance().getEdit().register(zoom);
 
+        preview.setSubject(Singleton.getInstance().getPreview());
+        move.setSubject(Singleton.getInstance().getEdit());
+        zoom.setSubject(Singleton.getInstance().getEdit());
 
-        Singleton.getInstance().getTop().register(canvasTop);
-        Singleton.getInstance().getLeft().register(canvasLeft);
-        Singleton.getInstance().getRight().register(canvasRight);
-
-        canvasTop.setSubject(Singleton.getInstance().getTop());
-        canvasLeft.setSubject(Singleton.getInstance().getLeft());
-        canvasRight.setSubject(Singleton.getInstance().getRight());
-
-        Singleton.getInstance().getWarpper().setTopCanvas(this.canvasTop);
-        Singleton.getInstance().getWarpper().setLeftCanvas(this.canvasLeft);
-        Singleton.getInstance().getWarpper().setRightCanvas(this.canvasRight);
+        Singleton.getInstance().getWarpper().setTopCanvas(this.preview);
+        Singleton.getInstance().getWarpper().setLeftCanvas(this.move);
+        Singleton.getInstance().getWarpper().setRightCanvas(this.zoom);
 
     }
 }

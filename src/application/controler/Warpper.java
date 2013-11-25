@@ -1,59 +1,57 @@
 package application.controler;
 
 import application.Flow;
+import application.action.Copy;
 import application.view.Canvas;
-import application.Singleton;
-import application.model.Thumbnail;
 import application.action.Action;
 import java.util.List;
 
 public class Warpper{
-    private Canvas canvasTop;
-    private Canvas canvasLeft;
-    private Canvas canvasRight;
-    private Thumbnail copy;
-
+    private Canvas preview;
+    private Canvas move;
+    private Canvas zoom;
+    private Copy copyInstance;
     public Warpper() {
-        this.canvasTop = null;
-        this.canvasLeft = null;
-        this.canvasRight = null;
+        this.preview = null;
+        this.move = null;
+        this.zoom = null;
     }
 
     public Canvas getTopCanvas() {
-        return this.canvasTop;
+        return this.preview;
     }
 
     public Canvas getLeftCanvas() {
-        return this.canvasLeft;
+        return this.move;
     }
 
     public Canvas getRightCanvas() {
-        return this.canvasRight;
+        return this.zoom;
     }
 
-    public Thumbnail getCopy() {
-        return this.copy;
+    public Copy getCopy() {
+        return this.copyInstance;
     }
 
-    public void setCopy(Thumbnail c) {
-        this.copy = c;
+    public void setCopy(Copy c) {
+        this.copyInstance = c;
     }
 
     public void setTopCanvas(Canvas c) {
-        this.canvasTop = c;
+        this.preview = c;
     }
 
     public void setLeftCanvas(Canvas c) {
-        this.canvasLeft = c;
+        this.move = c;
     }
 
     public void setRightCanvas(Canvas c) {
-        this.canvasRight = c;
+        this.zoom = c;
     }
 
     public void handleEvent(Action a) {
-        Flow.addDone(a);
         a.execute();
+        Flow.addDone(a);
     }
 
     public void invertEvent(Action a) {

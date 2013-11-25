@@ -9,37 +9,47 @@
     <list default="true" id="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" name="Default" comment="" />
     <ignored path="TP4.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/App.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385057899613" ignored="false" />
+    <file path="/App.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385257939409" ignored="false" />
     <file path="/a.html" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1384839711505" ignored="false" />
     <file path="/Thumbnails.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1384908184028" ignored="false" />
     <file path="/View.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385017298735" ignored="false" />
-    <file path="/Initialize.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385016304076" ignored="false" />
+    <file path="/Initialize.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385409834818" ignored="false" />
     <file path="/AppControler.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1384928559121" ignored="false" />
     <file path="/Roolback.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385049582983" ignored="false" />
     <file path="/Action.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1384901376053" ignored="false" />
-    <file path="/Move.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385010064268" ignored="false" />
+    <file path="/Move.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385411488326" ignored="false" />
     <file path="/ActionInterface.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1384901269541" ignored="false" />
-    <file path="/ZoomIN.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385054573073" ignored="false" />
-    <file path="/ViewMenu.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385001019322" ignored="false" />
-    <file path="/AppMenu.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385055729686" ignored="false" />
+    <file path="/ZoomIN.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385169296204" ignored="false" />
+    <file path="/ViewMenu.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385363419694" ignored="false" />
+    <file path="/AppMenu.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385407626468" ignored="false" />
     <file path="/Flow.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385058399108" ignored="false" />
     <file path="/Redo.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385059626897" ignored="false" />
     <file path="/fragment.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1384922839201" ignored="false" />
     <file path="/AppMediator.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385001209462" ignored="false" />
-    <file path="/Copy.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385045310181" ignored="false" />
+    <file path="/Copy.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385407203619" ignored="false" />
     <file path="/CopyPasteStrategy.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385000687740" ignored="false" />
     <file path="/Open.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385001260549" ignored="false" />
-    <file path="/Thumbnail.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385056843283" ignored="false" />
+    <file path="/Thumbnail.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385344539363" ignored="false" />
     <file path="/Subject.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385017379776" ignored="false" />
     <file path="/warpper.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385009540969" ignored="false" />
-    <file path="/Handler.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385061256442" ignored="false" />
-    <file path="/Singleton.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385058642646" ignored="false" />
-    <file path="/Paste.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385054114821" ignored="false" />
-    <file path="/Warpper.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385063381278" ignored="false" />
+    <file path="/Handler.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385362693319" ignored="false" />
+    <file path="/Singleton.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385257915004" ignored="false" />
+    <file path="/Paste.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385407407696" ignored="false" />
+    <file path="/Warpper.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385408675801" ignored="false" />
     <file path="/Utils.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385057244249" ignored="false" />
-    <file path="/Canvas.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385057678707" ignored="false" />
+    <file path="/Canvas.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385270789087" ignored="false" />
     <file path="/Observer.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385058905432" ignored="false" />
     <file path="/Rollback.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385059578116" ignored="false" />
+    <file path="/Zoom.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385412046673" ignored="false" />
+    <file path="$PROJECT_DIR$/../Lab 1/scaling test/src/Resize.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385153600547" ignored="false" />
+    <file path="$PROJECT_DIR$/../Lab 1/scaling test/src/TestImageResize.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385160773581" ignored="false" />
+    <file path="$PROJECT_DIR$/../Lab 1/scaling test/.idea/misc.xml" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385153615508" ignored="false" />
+    <file path="$PROJECT_DIR$/../Lab 1/scaling test/.idea/workspace.xml" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385160993621" ignored="false" />
+    <file path="/TestImageResize.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385154290492" ignored="false" />
+    <file path="/scalar.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385160364524" ignored="false" />
+    <file path="/ZoomOUT.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385165983877" ignored="false" />
+    <file path="/copy.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385262418399" ignored="false" />
+    <file path="/Copied.java" changelist="d8bb4ac6-93ea-4bb4-a27e-57cb988b1c33" time="1385360726684" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +114,32 @@
     <favorites_list name="TP4" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="23" selection-start="2046" selection-end="2046" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppMenu.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/application/menu/AppMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="59" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.68333334">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4792#5027#0" expanded="true" />
+                <element signature="e#5016#5017#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -114,22 +149,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/application/action/Paste.java" />
-        <option value="$PROJECT_DIR$/src/application/action/ZoomIN.java" />
-        <option value="$PROJECT_DIR$/src/application/action/ZoomOUT.java" />
-        <option value="$PROJECT_DIR$/src/application/menu/AppMenu.java" />
-        <option value="$PROJECT_DIR$/src/application/tools/ImageFilter.java" />
-        <option value="$PROJECT_DIR$/src/application/tools/Utils.java" />
-        <option value="$PROJECT_DIR$/src/application/view/Canvas.java" />
-        <option value="$PROJECT_DIR$/src/application/App.java" />
-        <option value="$PROJECT_DIR$/src/application/Flow.java" />
         <option value="$PROJECT_DIR$/src/application/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/application/tools/Observer.java" />
-        <option value="$PROJECT_DIR$/src/application/action/Rollback.java" />
-        <option value="$PROJECT_DIR$/src/application/action/Redo.java" />
+        <option value="$PROJECT_DIR$/src/application/model/copy.java" />
+        <option value="$PROJECT_DIR$/src/application/action/CopyType.java" />
+        <option value="$PROJECT_DIR$/src/application/action/Copied.java" />
         <option value="$PROJECT_DIR$/src/application/model/Thumbnail.java" />
-        <option value="$PROJECT_DIR$/src/application/tools/Handler.java" />
+        <option value="$PROJECT_DIR$/src/application/menu/ViewMenu.java" />
+        <option value="$PROJECT_DIR$/src/application/action/Copy.java" />
+        <option value="$PROJECT_DIR$/src/application/action/Paste.java" />
         <option value="$PROJECT_DIR$/src/application/controler/Warpper.java" />
+        <option value="$PROJECT_DIR$/src/application/view/Canvas.java" />
+        <option value="$PROJECT_DIR$/src/application/action/Zoom.java" />
+        <option value="$PROJECT_DIR$/src/application/action/Move.java" />
+        <option value="$PROJECT_DIR$/src/application/action/Initialize.java" />
+        <option value="$PROJECT_DIR$/src/application/tools/Handler.java" />
+        <option value="$PROJECT_DIR$/src/application/App.java" />
+        <option value="$PROJECT_DIR$/src/application/menu/AppMenu.java" />
       </list>
     </option>
   </component>
@@ -166,7 +201,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -351,6 +385,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,9 +403,9 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true">
@@ -409,6 +444,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -434,19 +482,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -528,25 +563,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="22" width="1398" height="878" extended-state="6" />
-    <editor active="false" />
+    <frame x="42" y="22" width="1398" height="878" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39973614" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16568047" sideWeight="0.74934036" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25065964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16568047" sideWeight="0.74934036" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25065964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -618,27 +653,64 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/application/action/ZoomOUT.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="0.19074073">
+        <state line="399" column="0" selection-start="14649" selection-end="14649" vertical-scroll-proportion="0.3326886">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/action/Rollback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="41" selection-start="484" selection-end="484" vertical-scroll-proportion="0.4925926">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/action/Redo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/action/Paste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="9" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.6333333">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/action/ZoomIN.java">
+    <entry file="file://$PROJECT_DIR$/src/application/action/Copy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="-0.47777778">
+        <state line="16" column="40" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/action/Open.java">
+    <entry file="file://$PROJECT_DIR$/src/application/action/Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="249" selection-end="249" vertical-scroll-proportion="0.33333334">
+        <state line="7" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.25725338">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/view/Canvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="42" selection-start="2878" selection-end="2878" vertical-scroll-proportion="0.5074074">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/action/Zoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -647,69 +719,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/action/Move.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="-0.4425926">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="-2.5185184">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/tools/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+        <state line="1" column="29" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/tools/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="82" selection-end="82" vertical-scroll-proportion="0.14074074">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/tools/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/action/Rollback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="42" selection-start="241" selection-end="241" vertical-scroll-proportion="0.21111111">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/action/Redo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="405" selection-end="405" vertical-scroll-proportion="0.35185185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/action/Paste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="112" selection-end="112" vertical-scroll-proportion="0.21111111">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/action/Initialize.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="133" selection-end="133" vertical-scroll-proportion="-0.08159393">
+        <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/tools/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="31" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/controler/Warpper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="94" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -718,35 +751,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/model/Thumbnail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="81" selection-start="1368" selection-end="1368" vertical-scroll-proportion="-0.02037037">
+        <state line="63" column="25" selection-start="1443" selection-end="1443" vertical-scroll-proportion="2.2166667">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2465#2475#0" expanded="true" />
+            <element signature="e#3723#3733#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/tools/Handler.java">
+    <entry file="file://$PROJECT_DIR$/src/application/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="319" selection-end="319" vertical-scroll-proportion="-0.09074074">
+        <state line="71" column="23" selection-start="2046" selection-end="2046" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/src.zip!/java/awt/event/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="16" selection-start="975" selection-end="975" vertical-scroll-proportion="0.67671233">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/controler/Warpper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="63" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.38703704">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/menu/AppMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="647" selection-end="647" vertical-scroll-proportion="-1.2851852">
+        <state line="42" column="59" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.68333334">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4792#5027#0" expanded="true" />
+            <element signature="e#5016#5017#0" expanded="true" />
           </folding>
         </state>
       </provider>
